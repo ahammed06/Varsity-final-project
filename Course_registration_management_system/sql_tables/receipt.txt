@@ -1,0 +1,8 @@
+CREATE TABLE receipt(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  student_id bigint(200) NOT NULL,
+  semester varchar(255) NOT NULL,
+  year int(100) NOT NULL,
+  receipt_no varchar(100) NOT NULL,
+  PRIMARY KEY (id)
+);

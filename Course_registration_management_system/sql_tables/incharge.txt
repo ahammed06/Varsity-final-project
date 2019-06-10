@@ -1,0 +1,11 @@
+CREATE TABLE incharge(
+  id int(100) NOT NULL AUTO_INCREMENT,
+  semester varchar(255) NOT NULL,
+  year varchar(255) NOT NULL,
+  code_name varchar(255) NOT NULL,
+  intake int(10) NOT NULL,
+  section int(10) NOT NULL,
+  department varchar(100) NOT NULL,
+  PRIMARY KEY (semester,year,intake,section,department),
+  UNIQUE KEY id (id)
+);

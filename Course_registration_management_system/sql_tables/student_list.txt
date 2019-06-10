@@ -1,0 +1,19 @@
+
+CREATE DATABASE course_list;
+
+CREATE TABLE student(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  student_id varchar(255) NOT NULL,
+  name varchar(255) NOT NULL,
+  email varchar(255) NOT NULL,
+  intake varchar(255) NOT NULL,
+  section varchar(255) NOT NULL,
+  mobile varchar(100) NOT NULL,
+  department varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY email (email),
+  UNIQUE KEY mobile (mobile),
+  UNIQUE KEY student_id (student_id)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1
+

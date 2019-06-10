@@ -1,0 +1,15 @@
+CREATE DATABASE administrator;
+
+CREATE TABLE admin(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  email varchar(255) NOT NULL,
+  mobile varchar(100) NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY email (email),
+  UNIQUE KEY username (username)
+);
+
+INSERT INTO admin (username,password,email,mobile) VALUES ('12345','12345','bsa70046@gmail.com','01521201882');
+

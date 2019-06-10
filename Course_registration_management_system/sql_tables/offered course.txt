@@ -1,0 +1,14 @@
+CREATE TABLE offer(
+  semester varchar(255) NOT NULL,
+  year varchar(255) NOT NULL,
+  intake varchar(100) NOT NULL,
+  section varchar(100) NOT NULL,
+  department varchar(100) NOT NULL,
+  course_code1 varchar(255),
+  course_code2 varchar(255),
+  course_code3 varchar(255),
+  course_code4 varchar(255),
+  course_code5 varchar(255),
+  course_code6 varchar(255),
+  PRIMARY KEY (semester,year,intake,department)
+);

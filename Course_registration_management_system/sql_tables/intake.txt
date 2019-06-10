@@ -1,0 +1,6 @@
+CREATE TABLE intake(
+  intake varchar(255) NOT NULL,
+  section varchar(255) NOT NULL,
+  department varchar(255) NOT NULL,
+  PRIMARY KEY (intake,section,department)
+);
